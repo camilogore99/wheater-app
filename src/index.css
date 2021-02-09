@@ -1,13 +1,53 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #293251;
+}
+h1 {
+  color: slateblue;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.container {
+  align-items: center;
+  color: slateblue;
+  display: flex;
+  font-weight: 900;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+.card {
+  border-radius: 50px;
+  background-color: white;
+  height: 400px;
+  width: 600px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-body {
+  display: flex;
+  height: 170px;
+  background: rgba(0, 0, 0, 0.07);
+}
+.box-weather {
+  border: solid white;
+  color: slateblue;
+  width: 280px;
+}
+.box-content {
+  display: table-column;
+  justify-content: center;
+  text-align: center;
+}
+.box {
+  border: solid white;
+  height: 37px;
+  width: 300px;
+}
+.button {
+  background-color: slateblue;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: sans-serif;
+  margin: 10px;
+  height: 40px;
 }
