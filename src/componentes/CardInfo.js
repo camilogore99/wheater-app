@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ButtonDegre from "./ButtonDegrees";
 import City from "./city";
 import Humidity from "./Humidity";
 import Clouds from "./Cloud";
