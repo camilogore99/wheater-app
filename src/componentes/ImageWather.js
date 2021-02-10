@@ -1,6 +1,6 @@
 const ImageWather = () => {
       return(
-            <div> AQUI VA LA IMAGEN hola </div>
+            <div className="image"></div>
       )
 }
 export default ImageWather;

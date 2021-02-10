@@ -8,7 +8,7 @@ h1 {
 }
 .container {
   align-items: center;
-  color: slateblue;
+  color: snow;
   display: flex;
   font-weight: 900;
   height: 100vh;
@@ -17,7 +17,7 @@ h1 {
 }
 .card {
   border-radius: 50px;
-  background-color: white;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgifimage.net%2Fwp-content%2Fuploads%2F2017%2F11%2Ffondos-gif-para-pc-con-movimiento-4.gif&f=1&nofb=1);
   height: 400px;
   width: 600px;
 }
@@ -28,9 +28,16 @@ h1 {
   background: rgba(0, 0, 0, 0.07);
 }
 .box-weather {
-  border: solid white;
-  color: slateblue;
+  color: snow;
   width: 280px;
+}
+.image {
+  background-image: url(https://clipartsworld.com/images/cartoon-cloud-clip-art-free-9.png);
+  background-size: cover;
+  border-radius: 10px;
+  height: 120px;
+  margin-left: 30px;
+  width: 200px;
 }
 .box-content {
   display: table-column;
@@ -38,7 +45,6 @@ h1 {
   text-align: center;
 }
 .box {
-  border: solid white;
   height: 37px;
   width: 300px;
 }

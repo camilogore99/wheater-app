@@ -1,6 +1,6 @@
-const GradeButton = () => {
+const GradeButton = ({ grade }) => {
       return(
-            <div>AQUI VAN LOS GRADOS </div>
-      )
-}
+            <div>{(grade -273.15)} C° </div>
+      );
+};
 export default GradeButton;
