@@ -1,8 +1,7 @@
 const GradeButton = ({ grade }) => {
-      const num = grade -273.15;
-      const num2 = Math.trunc(num)
+      const gradsCe = Math.trunc(grade -273.15)
       return(
-            <div>{(num2)} C° </div>
+            <div>{(gradsCe)} C° </div>
       );
 };
 export default GradeButton;
